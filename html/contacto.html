@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Shake Lake</title>
-  <link rel="stylesheet" href="/css/contacto.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Shake Lake</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <div class="logo">
-      Shake Lake
-    </div>
-    <nav>
-      <a href="/index.html">Inicio</a>
-      <a href="/html/Productos.html">Productos</a>
-    </nav>
-  </header>
+    <header>
 
-  <main>
-    <div class="container">
-      <!-- Mapa a la izquierda -->
-      <div class="map-section">
-        <img src="/Imagenes/Mapa.png" alt="Ubicación Shake Luke / Quinto Sentido">
-      </div>
-
-      <!-- Formulario a la derecha -->
-      <div class="form-section">
-        <h1>Contáctanos</h1>
-        
-        <form id="contactForm">
-          <div class="form-group">
-            <input type="email" id="email" placeholder="Escribe tu correo electronico" required>
-          </div>
-          
-          <div class="form-group">
-            <textarea id="mensaje" rows="6" placeholder="Escribe tu asunto de consulta" required></textarea>
-          </div>
-          
-          <button type="submit">Submit</button>
-        </form>
-
-        <div id="success" class="success-message">
-          ✅ Mensaje enviado con éxito!<br>
-          Nos pondremos en contacto contigo pronto.
+        <div class="logo">
+            <img src="/Imagenes/Logo Shake Lake.png" alt="Shake Lake Logo">
+            Shake Lake
         </div>
-      </div>
-    </div>
-  </main>
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <a href="/html/Productos.html">Productos</a>
+        </nav>
+    </header>
 
-  <script src="contacto.js"></script>
+    <main>
+        <div class="container">
+            <!-- Mapa a la izquierda -->
+            <div class="map-section">
+                <img src="/Imagenes/Mapa.png" alt="Ubicación Shake Luke / Quinto Sentido">
+            </div>
+
+            <!-- Formulario a la derecha -->
+            <div class="form-section">
+                <h1>Contáctanos</h1>
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Escribe tu correo electronico" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="mensaje" rows="6" placeholder="Escribe tu asunto de consulta" required></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div id="success" class="success-message">
+                    ✅ Mensaje enviado con éxito!<br>
+                    Nos pondremos en contacto contigo pronto.
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="/js/backend.js"></script>
 </body>
+
 </html>
