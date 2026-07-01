@@ -130,3 +130,19 @@ button:hover {
         padding: 15px 5%;
     }
 }
+
+
+footer {
+  background-color: #00bfbf;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  
+}
+.xd img{
+    height: 5vh;
+    text-align: justify;
+    width: 5vw;
+    padding: 0%;
+}

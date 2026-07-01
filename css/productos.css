@@ -155,4 +155,12 @@ footer {
   color: white;
   padding: 15px;
   font-size: 14px;
+  
+}
+
+.xd img{
+    height: 5vh;
+    text-align: justify;
+    width: 5vw;
+    padding: 0%;
 }
